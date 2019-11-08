@@ -23,17 +23,17 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  create_an_array[1]
+  array[1]
 end
 
 def retrieve_first_element_from_array(array)
-  create_an_array[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  create_an_array[-1]
+  array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-  create_an_array[2] = "Sheffield Utd"
+  array[2] = "Sheffield Utd"
 end
