@@ -7,19 +7,19 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array << "Spurs"
+  array << "Spurs"
 end
 
 def add_element_to_start_of_array(array, element)
-  create_an_array.unshift("Leicester City")
+  array.unshift("Leicester City")
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  create_an_array.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
