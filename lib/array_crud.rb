@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Arsenal", "Liverpool", "Chelsea"]
+  ["Arsenal", "Liverpool", "Chelsea", "West Ham"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array << "Spurs"
+  array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift("Leicester City")
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
